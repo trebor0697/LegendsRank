@@ -12,7 +12,7 @@ namespace LegendsRank
     public partial class App : PrismApplication
     {
 
-        public App(IPlatformInitializer platformInitializer) : base(platformInitializer) { }
+        public App(IPlatformInitializer platformInitializer) : base(platformInitializer) {}
 
         protected override void OnInitialized()
         {
