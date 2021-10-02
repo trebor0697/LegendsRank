@@ -23,7 +23,7 @@ namespace LegendsRank.ViewModels
 
         public MainPageViewModel()
         {
-            summonerapiService = new SummonerApiService();
+            summonerapiService = new SummonerAPIService();
             GetSummonerCommand = new Command(GetSummonerAsync);
         }
 
