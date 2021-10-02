@@ -3,6 +3,27 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="LegendsRank.Views.MainPage">
     <ContentPage.Content>
-        <Label HorizontalOptions="Center" VerticalOptions="Center" Text="{Binding Text}" FontSize="Large" FontAttributes="Bold"/>
+        <ScrollView>
+            <StackLayout 
+            VerticalOptions="Center" 
+            Padding="10"
+            >
+                <Image 
+                Source="LogoApp.png" 
+                WidthRequest="250"
+                HeightRequest="250"
+             />
+                <Entry 
+                x:Name="UserEntry"
+                Placeholder="Find player by username" 
+             />
+ 
+                <Button 
+                Text="Find" 
+                TextColor="White"  
+                BackgroundColor="Black" 
+             />
+            </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
